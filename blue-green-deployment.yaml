@@ -16,7 +16,7 @@ spec:
         - name: gar-secret
       containers:
         - name: bg
-          image: us-central1-docker.pkg.dev/intrepid-axe-482904-f4/harness-repo/app:blue
+          image: us-central1-docker.pkg.dev/intrepid-axe-482904-f4/harness-repo/app:green
           ports:
             - containerPort: 80
 ---
